@@ -18,7 +18,7 @@ module.exports = {
              name: 'Movies',
              uri: ['MovieApi?'
                    +'&apiURL='
-                     + 'http://localhost:5000/,'
+                     + 'http://localhost:5000/movies/,'
 //                     + 'cloudflare+http://xor.image.yt'
                   ]
          },
@@ -27,7 +27,7 @@ module.exports = {
              name: 'Series',
              uri: ['TVApi?'
                    +'&apiURL='
-                     + 'http://localhost:5000/,'
+                     + 'http://localhost:5000/shows/,'
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
@@ -36,7 +36,7 @@ module.exports = {
              name: 'Anime',
              uri: ['AnimeApi?'
                    +'&apiURL='
-                     + 'http://localhost:5000/,'
+                     + 'http://localhost:5000/animes/,'
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
