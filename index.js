@@ -18,8 +18,7 @@ module.exports = {
              name: 'Movies',
              uri: ['MovieApi?'
                    +'&apiURL='
-                     + 'https://movies-v2.api-fetch.website/,'
-                     + 'cloudflare+https://movies-v2.api-fetch.website,'
+                     + 'http://localhost:5000/,'
 //                     + 'cloudflare+http://xor.image.yt'
                   ]
          },
@@ -28,8 +27,7 @@ module.exports = {
              name: 'Series',
              uri: ['TVApi?'
                    +'&apiURL='
-                     + 'https://tv-v2.api-fetch.website/,'
-                     + 'cloudflare+https://tv-v2.api-fetch.website,'
+                     + 'http://localhost:5000/,'
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
@@ -38,8 +36,7 @@ module.exports = {
              name: 'Anime',
              uri: ['AnimeApi?'
                    +'&apiURL='
-                     + 'https://anime.api-fetch.website/,'
-                     + 'cloudflare+https://anime.api-fetch.website,'
+                     + 'http://localhost:5000/,'
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
@@ -52,7 +49,7 @@ module.exports = {
          subtitle: 'OpenSubtitles',
          metadata: 'Trakttv',
          tvst: 'TVShowTime',
-         torrentCache: 'TorrentCache'         
+         torrentCache: 'TorrentCache'
      },
     updateEndpoint: {
         url: 'https://popcorntime.sh/',
