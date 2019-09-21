@@ -19,6 +19,7 @@ module.exports = {
              uri: ['MovieApi?'
                    +'&apiURL='
                      + 'https://movies-v2.api-fetch.website/,'
+                     + 'https://popcorn-api.io/,'
                      + 'cloudflare+https://movies-v2.api-fetch.website,'
 //                     + 'cloudflare+http://xor.image.yt'
                   ]
@@ -29,6 +30,7 @@ module.exports = {
              uri: ['TVApi?'
                    +'&apiURL='
                      + 'https://tv-v2.api-fetch.website/,'
+                     + 'https://popcorn-api.io/,'
                      + 'cloudflare+https://tv-v2.api-fetch.website,'
 //                     + 'http://tv.ytspt.re/'
                   ]
@@ -39,6 +41,7 @@ module.exports = {
              uri: ['AnimeApi?'
                    +'&apiURL='
                      + 'https://anime.api-fetch.website/,'
+                     + 'https://popcorn-api.io/,'
                      + 'cloudflare+https://anime.api-fetch.website,'
 //                     + 'http://tv.ytspt.re/'
                   ]
